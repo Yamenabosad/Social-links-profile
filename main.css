@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+}
+body {
+  font-family: "Inter", sans-serif;
+
+  background-color: var(--Off-Black);
+}
+.container {
+  width: 450px;
+  margin: 100px auto;
+  background-color: var(--Dark-Grey);
+  text-align: center;
+  border-radius: 12px;
+}
+img {
+  border-radius: 50%;
+  width: 100px;
+  padding-top: 40px;
+}
+h2 {
+  color: var(--White);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+p {
+  color: var(--Green);
+  margin-top: 5px;
+  font-weight: 600;
+}
+section {
+  color: var(--White);
+  margin: 25px 0 10px;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border: none;
+  padding: 10px;
+  width: 80%;
+  margin: 10px;
+  background-color: var(--Grey);
+  color: var(--White);
+  font-weight: 700;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+button:hover {
+  cursor: pointer;
+  background-color: var(--Green);
+  color: var(--Off-Black);
+}
+.btn :last-child {
+  margin-bottom: 20px;
+}
